@@ -10,7 +10,7 @@ The attention mechanism is a pivotal advancement in deep learning introduced in 
 Model blending is a technique that takes the outputs of multiple independently trained submodels and feeds them into a final model, based on the belief that such a cascading structure will result in better performance.
 
 
-### Process
+### Development Process
 I developed two distinct blended model architectures, one not using the attention mechanism, and the other using the attention mechanism. Each architecture features 5 neural network submodels, and one final neural network that uses the outputs of the 5 submodels as its inputs. Each of these architectures was trained independently and used to create a 2024 bracket, both of which I’ve attached here. 
 
 
@@ -60,7 +60,7 @@ Model with the attention mechanism:
 
 
 ### Results Discussion
-The test set results of both the architecture without the attention mechanism and that with the attention mechanism are very similar- all exceeding 75% in accuracy, F1 score, ROC AUC, precision, and recall. The classification reports indicate the strong abilities of both architectures to identify wins (1.0) and losses (0.0) of teams- there is not a bias toward either way. 
+The test set results of both the architecture without the attention mechanism and that with the attention mechanism are very similar- all exceeding 75% in accuracy, F1 score, ROC AUC, precision, and recall. The classification reports indicate the strong abilities of both architectures to identify wins (1.0) and losses (0.0) of teams- there is not a bias toward either. 
 
 
 ### Other Thoughts
